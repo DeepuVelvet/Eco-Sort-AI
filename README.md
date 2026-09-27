@@ -1,48 +1,53 @@
 # ♻️ Eco Sort AI
 
-An AI-based waste classification system designed to identify different types of waste and help segregate them into the appropriate categories.
+### Smart Waste Classification System
 
-## 🚀 Project Overview
+Eco Sort AI is a Python-based waste classification prototype designed to help users identify different types of waste and understand how they should be disposed of.
 
-Eco Sort AI uses Python and AI-based classification to identify waste such as plastic, paper, glass, cardboard, and organic waste.
+## 🌱 Current Version
 
-The project aims to make waste segregation easier, faster, and more efficient.
-
-## 🧠 Waste Categories
+The current version uses a predefined waste database to classify commonly entered waste items into four categories:
 
 * ♻️ Recyclable
 * 🌱 Organic
-* 🗑️ Other waste
+* ⚠️ Hazardous
+* 🗑️ General Waste
+
+The program also provides disposal advice and maintains an Eco Impact Report showing the number and percentage of items analyzed in each category.
+
+## ⚙️ How It Works
+
+1. The user selects **Analyze Waste**.
+2. The user enters the name of a waste item.
+3. The program checks the waste database.
+4. The item is assigned to its corresponding waste category.
+5. The program displays disposal advice.
+6. The system records the result in the Eco Impact Report.
 
 ## 🛠️ Technologies Used
 
 * Python
-* Machine Learning / AI
-* Arduino
-* Servo Motors
-* Computer Vision
+* Python Dictionaries
+* Functions
+* Conditional Statements
+* Loops
+* Basic Data Processing
 
-## ⚙️ How It Works
+## 🎯 Project Goal
 
-1. Waste is placed in the detection area.
-2. A camera captures the waste.
-3. The AI system analyzes the input.
-4. The waste is classified into the appropriate category.
-5. The Arduino controls the servo mechanism.
-6. The waste is directed toward the corresponding bin.
+The goal of Eco Sort AI is to develop a smart waste classification system that can eventually assist with automated waste segregation.
 
-## 🎯 Goal
+## 🚀 Future Development
 
-To develop a smart waste segregation system that can assist in reducing incorrect waste disposal and improve recycling efficiency.
+The project will be developed further to include:
 
-## 🔮 Future Improvements
-
-* Improve classification accuracy
-* Train the model with a larger dataset
-* Add real-time camera detection
-* Connect the AI model with the physical Arduino prototype
-* Add more waste categories
-* Deploy the system as a complete real-time application
+* Image-based waste classification
+* Machine learning
+* Computer vision
+* Real-time camera detection
+* Arduino integration
+* Servo motor-based automated segregation
+* Physical waste-sorting prototype
 
 ## 👩‍💻 Author
 
