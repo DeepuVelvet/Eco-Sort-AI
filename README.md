@@ -46,4 +46,4 @@ To develop a smart waste segregation system that can assist in reducing incorrec
 
 ## 👩‍💻 Author
 
-Mochi
+Deepthi Veerni
