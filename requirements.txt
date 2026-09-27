@@ -1,0 +1,2 @@
+# Eco Sort AI
+# No external Python packages are required yet.
